@@ -1,9 +1,20 @@
 mvn-repo
 ========
 
-## mod-socket-io 
+## Repository
 
-### v1.0.0 (for the vertx 2.0.0-CR3)
+```xml
+<repository>
+    <id>keesun.mvn.repo</id>
+    <url>https://github.com/keesun/mvn-repo/raw/master</url>
+</repository>
+```
+
+## Dependencies
+
+### mod-socket-io 
+
+#### v1.0.0 (for the vertx 2.0.0-CR3)
 
 ```xml
 <dependency>
@@ -13,7 +24,7 @@ mvn-repo
 </dependency>
 ```
 
-### v0.9.10 (for the vertx 1.3.1.final)
+#### v0.9.10 (for the vertx 1.3.1.final)
 
 ```xml
 <dependency>
